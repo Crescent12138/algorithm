@@ -42,6 +42,7 @@ int query(char *t) {
 }  // namespace AC
 
 char s[N];
+<<<<<<< HEAD
 vector<int >ve[100000];
 int main() {
   scanf("%d", &n);
@@ -61,5 +62,13 @@ int main() {
 
      
   }
+=======
+int main() {
+  scanf("%d", &n);
+  for (int i = 1; i <= n; i++) scanf("%s", s + 1), AC::insert(s);
+  scanf("%s", s + 1);
+  AC::build();
+  printf("%d", AC::query(s));
+>>>>>>> 278fb314a3da4713da79a94cc121bd19c9560df9
   return 0;
 }

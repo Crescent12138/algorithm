@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 //高精度算法加减乘除
 #include<bits/stdc++.h>
 using namespace std;
+=======
+>>>>>>> 278fb314a3da4713da79a94cc121bd19c9560df9
 vector<int> mul(vector<int> a, int x){
     vector<int> res;
     int t = 0;

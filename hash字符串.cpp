@@ -29,7 +29,11 @@ ull gethash2(int l,int r){
 }
 vector<int >ve;
 int main(){
+<<<<<<< HEAD
     cin>>s; 
+=======
+    cin>>s;
+>>>>>>> 278fb314a3da4713da79a94cc121bd19c9560df9
     len=s.length();
     for(int i=0;i<len;i++){
         hash1[i+1]=(hash1[i]*2333+s[i]-'a'+1)%mod;
