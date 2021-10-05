@@ -1,5 +1,4 @@
-<<<<<<< HEAD
- #include<bits/stdc++.h>
+#include<bits/stdc++.h>
 #define rep(i,a,b) for(int i=a;i<b;i++)
 using namespace std;
 typedef long long ll;
@@ -35,6 +34,4 @@ int main(){
 		printf("%d\n",ans);
 	}
 }
-=======
- 
->>>>>>> 278fb314a3da4713da79a94cc121bd19c9560df9
+
